@@ -1,9 +1,8 @@
-#This is a makefile
-testlistg:testlistg.c listg.c
-	gcc -g testlistg.c listg.c -o testlistg
-
+# if you want to be the better one ,please follow below
+testsortg:testsortg.c sortg.c
+	gcc -g testsortg.c sortg.c -o testsortg
 N:
-	gcc testlistg.c listg.c -o testlistg
+	gcc testsortg.c sortg.c -o testsortg
 
 clean:
-	rm testlistg
+	rm testsortg
